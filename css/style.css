@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+#barraXP {
+    width: 100%;
+    background-color: #ddd;
+}
+  
+#barraXPProgresso {
+    width: 10%;
+    height: 30px;
+    background-color: #F47932;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#barraVida {
+    width: 100%;
+    background-color: #ddd;
+}
+  
+#barraVidaProgresso {
+    width: 80%;
+    height: 30px;
+    background-color: #F3DC80;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+button {
+
+    margin: 0.7rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: gray;
+    color: white;
+    border: 0;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
